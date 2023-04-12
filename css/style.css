@@ -229,7 +229,7 @@ nav .header--links a {
     color: #5d6678;
 }
 
-.text-questions a {
+.text-questions a{
     margin: 28px 0 0 0;
     width: 130px;
     display: inline-block;
@@ -249,4 +249,107 @@ nav .header--links a {
     font-size: 3.125rem;
 }
 
+.results {
+    background: #2570ff;
+    padding-top: 1.875rem;
+}
 
+.content-results {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.numbers {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.numbers .number {
+    width: 45%;
+    background: rgba(255, 255, 255, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 40px 35px;
+    margin-bottom: 20px;
+}
+
+.numbers .number h4 {
+    color: #fff;
+    font-size: 3.125rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+}
+
+.numbers .number p {
+    color: #f2f5fc;
+    font-weight: 300;
+}
+
+.results-text {
+    width: 37%;
+}
+
+.results-text h4{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.results-text p {
+    color: #fff;
+    font-weight: 300;
+    margin: 1.25rem 0;
+}
+
+.results-text>a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border:  1px solid #fff;
+    padding: 10px 0;
+    width: 7.5rem;
+    text-align: center;
+    border-radius: .3125rem;
+}
+
+
+/* services */
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services>img {
+    width: 31.25rem;
+
+}
+
+.box-skills {
+    margin: 1.875rem 1.875rem 0 0;
+
+}
+
+.box-skills h4 {
+    font-size: 1.5rem;
+    background: #f2f2f2;
+    width: 21.875rem;
+    border-radius: 6px;
+    padding: 10px 0 10px 15px;
+    margin-bottom: 10px;
+}
+
+.box-skills i{
+    color: #1fde82;
+    font-size: 1.25rem;
+}
+
+
+/* 
+
+1- Hacer el footer
+2- Identar todo
+3- px y rem
+4- hacer una copia para el modo oscuro
+
+*/
