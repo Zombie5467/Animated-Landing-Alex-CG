@@ -1,0 +1,148 @@
+/* Responsive */
+@media screen and (max-width:800px) {
+    .title {
+        font-size: 2.8125rem;
+    }
+
+    .content-header {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 45rem;
+    }
+
+    .content-header>img {
+        width: 25rem;
+    }
+
+    .text-header {
+        margin: 0;
+    }
+
+    /* About us */
+    .article {
+        width: 45%;
+    }
+
+    /* Questions */
+    .questions {
+        height: 45rem;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .questions>img {
+        width: 25rem;
+    }
+
+    /* Results */
+    .content-results {
+        flex-direction: column-reverse;
+    }
+
+    .results-text>a {
+        margin-bottom: 3.75rem;
+    }
+
+    .numbers {
+        width: 100%;
+    }
+
+    .results-text {
+        width: 100%;
+    }
+    
+    /* Service */
+    .services {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .box-skills {
+        margin: 0 0 2.5rem 0;
+        
+    }
+
+    .box-skills h4 {
+        width: 31.25rem;
+    }
+
+    .services>img {
+        width: 25rem;
+    }
+
+    /* Footer */
+    footer {
+        justify-content: space-evenly;
+    }
+
+    .partFooter {
+        width: 40%;
+        margin-bottom: 2.5rem;
+    }
+} 
+
+
+@media screen and (max-width:600px) {
+    .title {
+        font-size: 2.1875rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .content-header {
+        height: 40.625rem;
+    }
+
+    .nav {
+        padding: 0 .625rem;
+    }
+
+    .content-header>img {
+        width: 12.5rem;
+    }
+
+    .header--links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    /* About us */
+    .article {
+        width: 95%;
+    }
+
+    /* Questions */
+    .questions>img {
+        width: 12.5rem;
+    }
+
+    /* Results */
+    .numbers .number {
+        width: 95%;
+    }
+
+    .results-text h4{
+        font-size: 2.1875rem;
+    }
+    
+    /* Service */
+    .services>img{
+        width: 12.5rem;
+    }
+
+    .box-skills h4 {
+        width: 100%;
+    }
+
+
+    /* Footer */
+    .partFooter {
+        width: 95%;
+        margin-bottom: 2.5rem;
+    }
+} 
