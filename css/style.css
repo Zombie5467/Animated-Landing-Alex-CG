@@ -47,7 +47,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 100;
-    /* transition: ease-in-out 0.5s; */
+    transition: ease-in-out 0.5s;
 }
 
 .nav {
@@ -60,7 +60,7 @@ nav {
 }
 
 .nav .logo {
-    height: 5rem;
+    height: 3rem;
 }
 
 
@@ -86,7 +86,7 @@ nav .header--links a {
     text-align: center;
     z-index: 100;
     cursor: pointer;
-    /* transition: color 0.5s ease-in; */
+    transition: color 0.5s ease-in;
 }
 
 .hamburger > i{

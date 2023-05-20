@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,7 +69,7 @@
 
             <div class="container-article">
 
-                <div class="article">
+                <div class="article" data-aos="zoom-in-right">
                     <i class="fa-solid fa-pen"></i>
                     <h3>this is the h3 title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ducimus aspernatur sed consequatur repellendus recusandae, nisi vero hic eius veritatis.</p>
@@ -74,7 +77,7 @@
                 </div>
 
 
-                <div class="article">
+                <div class="article" data-aos="zoom-in-right">
                     <i class="fa-solid fa-code"></i>
                     <h3>this is the h3 title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ducimus aspernatur sed consequatur repellendus recusandae, nisi vero hic eius veritatis.</p>
@@ -82,7 +85,7 @@
                 </div>
 
 
-                <div class="article">
+                <div class="article" data-aos="zoom-in-right">
                     <i class="fa-solid fa-gear"></i>
                     <h3>this is the h3 title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ducimus aspernatur sed consequatur repellendus recusandae, nisi vero hic eius veritatis.</p>
@@ -90,7 +93,7 @@
                 </div>
 
 
-                <div class="article">
+                <div class="article" data-aos="zoom-in-right">
                     <i class="fa-brands fa-discord"></i>
                     <h3>this is the h3 title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ducimus aspernatur sed consequatur repellendus recusandae, nisi vero hic eius veritatis.</p>
@@ -98,7 +101,7 @@
                 </div>
 
 
-                <div class="article">
+                <div class="article" data-aos="zoom-in-right">
                     <i class="fa-solid fa-pen"></i>
                     <h3>this is the h3 title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ducimus aspernatur sed consequatur repellendus recusandae, nisi vero hic eius veritatis.</p>
@@ -106,7 +109,7 @@
                 </div>
 
 
-                <div class="article">
+                <div class="article" data-aos="zoom-in-right">
                     <i class="fa-solid fa-pen"></i>
                     <h3>this is the h3 title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ducimus aspernatur sed consequatur repellendus recusandae, nisi vero hic eius veritatis.</p>
@@ -114,11 +117,11 @@
                 </div>
 
 
-                <div class="article">
+                <!-- <div class="article">
                     <i class="fa-solid fa-pen"></i>
                     <h3>this is the h3 title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ducimus aspernatur sed consequatur repellendus recusandae, nisi vero hic eius veritatis.</p>
-                    <a href="#"> Read more ---></a>
+                    <a href="#"> Read more</a>
                 </div>
 
 
@@ -126,8 +129,8 @@
                     <i class="fa-solid fa-pen"></i>
                     <h3>this is the h3 title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ducimus aspernatur sed consequatur repellendus recusandae, nisi vero hic eius veritatis.</p>
-                    <a href="#"> Read more ---></a>
-                </div>
+                    <a href="#"> Read more</a>
+                </div> -->
 
             </div>
         </div>
@@ -141,7 +144,7 @@
             <a href="#">Lear more</a>
         </section>
 
-        <img src="img/segundaIlustracion.svg" alt="">
+        <img src="img/segundaIlustracion.svg" data-aos="zoom-out-up" alt="">
 
     </section>
 
@@ -151,28 +154,28 @@
 
             <section class="numbers">
 
-                <div class="number">
+                <div class="number" data-aos="zoom-out-left">
                     <h4>+8863</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, magni?
                     </p>
                 </div>
 
 
-                <div class="number">
+                <div class="number" data-aos="zoom-out-left">
                     <h4>+8863</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, magni?
                     </p>
                 </div>
 
 
-                <div class="number">
+                <div class="number" data-aos="zoom-out-left">
                     <h4>+8863</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, magni?
                     </p>
                 </div>
 
 
-                <div class="number">
+                <div class="number" data-aos="zoom-out-left">
                     <h4>+8863</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, magni?
                     </p>
@@ -190,8 +193,10 @@
     </section>
     <section class="container1 services"> <!-- same class name container1 -->
         
-        <img src="img/terceraIlustracion.svg" alt="">
+        <img src="img/terceraIlustracion.svg" data-aos="zoom-out-right" alt=""> 
         
+        <!-- data-aos-duration="3000" (para la duracion del efecto)-->
+
         <div class="box-skills">
             <h4><i class="fa-regular fa-circle-check"></i> Web Design</h4>
             <h4><i class="fa-regular fa-circle-check"></i> Web Development</h4>
@@ -233,7 +238,9 @@
         </div>
 
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/de5f578256.js" crossorigin="anonymous"></script>  
+    <script src="js/main.js"></script> 
 </body>
 
 <!-- hacer el footer, viedo 2 -->
